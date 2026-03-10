@@ -16,7 +16,7 @@ def google_scholar_search(query, num_results=5):
     list: A list of dictionaries containing search results.
     """
     # Prepare the search URL
-    search_url = f"https://scholar.google.com/scholar?q={query.replace(' ', '+')}"
+    search_url = f"https://xueshu.lanfanshu.cn/scholar?q={query.replace(' ', '+')}"
     
     # Set up headers to mimic a real browser request
     headers = {
@@ -80,7 +80,7 @@ def advanced_google_scholar_search(query, author=None, year_range=None, num_resu
     list: A list of dictionaries containing search results.
     """
     # Prepare the advanced search URL
-    search_url = "https://scholar.google.com/scholar?"
+    search_url = "https://xueshu.lanfanshu.cn/scholar?"
     
     # Build the search query
     search_params = {'q': query.replace(' ', '+')}
