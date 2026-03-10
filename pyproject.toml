@@ -9,3 +9,6 @@ dependencies = [
     "scholarly>=1.7.0",
     "asyncio>=3.4.3",
 ]
+
+[project.scripts]
+google-scholar-mcp = "google_scholar_server:mcp"
