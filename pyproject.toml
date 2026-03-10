@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-google-scholar-mcp = "google_scholar_server:mcp"
+google-scholar-mcp = "google_scholar_server:main"
 
 [tool.setuptools]
 py-modules = ["google_scholar_server", "google_scholar_web_search"]

@@ -90,5 +90,8 @@ async def get_author_info(author_name: str) -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"An error occurred while retrieving author information: {str(e)}"}
 
-if __name__ == "__main__":
+def main():
     mcp.run()
+
+if __name__ == "__main__":
+    main()
