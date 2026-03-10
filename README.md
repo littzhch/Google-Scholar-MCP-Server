@@ -1,3 +1,13 @@
+# Fork 后的更新
+
+- 使用镜像站替换了 google scholar 的网址，确保国内的正常访问。
+- 支持 uv。
+
+#### 安装（以 claude code 为例）
+```bash
+claude mcp add --scope user google-scholar -- uvx --from git+https://github.com/littzhch/Google-Scholar-MCP-Server.git google-scholar-mcp
+```
+---
 # Google Scholar MCP Server
 [![smithery badge](https://smithery.ai/badge/@JackKuo666/google-scholar-mcp-server)](https://smithery.ai/server/@JackKuo666/google-scholar-mcp-server)
 
