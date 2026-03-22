@@ -2,6 +2,7 @@
 
 - 使用镜像站替换了 google scholar 的网址，确保国内的正常访问。
 - 支持 uv。
+- 添加 `.gitignore`，忽略 `__pycache__/` 等 Python 缓存文件。
 
 #### 安装（以 claude code 为例）
 ```bash
